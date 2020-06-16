@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A website with material colors">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Grey | Olmo</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/k3GqSDv/Group-1.png">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout__header--scroll mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header mdl-color--white mdl-color-text--black">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Grey</span>
+          <div class="mdl-layout-spacer"></div>
+          
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+            <li class="mdl-menu__item" onclick="location.href='about.html';">About</li>
+            <li class="mdl-menu__item" onclick="location.href='contact.html';">Contact</li>
+          </ul>
+        </div>
+      </header>
+      <div class="demo-drawer mdl-layout__drawer mdl-color--white mdl-color-text--blue-grey-600">
+        <nav class="demo-navigation mdl-navigation mdl-color--white">
+          <a class="mdl-navigation__link mdl-color-text--black" href="index.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Home</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="red.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Red</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="pink.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Pink</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="purple.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Purple</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="deep-purple.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Deep Purple</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="indigo.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Indigo</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="blue.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Blue</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="light-blue.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Light Blue</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="cyan.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Cyan</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="teal.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Teal</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="green.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Green</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="light-green.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Light Green</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="lime.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Lime</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="yellow.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Yellow</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="amber.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Amber</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="orange.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Orange</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="deep-orange.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Deep Orange</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="brown.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Brown</a>
+          <a class="mdl-navigation__link mdl-color--deep-orange-50 mdl-color-text--deep-orange-500" href="grey.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Grey</a>
+          <a class="mdl-navigation__link mdl-color-text--black" href="blue-grey.html" style="margin-top: 4px; margin-bottom: 4px; margin-left: 8px; margin-right: 8px; border-radius: 5px;">Blue Grey</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content mdl-color--white">
+        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+          <div class="mdl-tabs__tab-bar">
+              <a href="#vanilla-panel" class="mdl-tabs__tab is-active">Material Vanilla</a>
+              <a href="#light-panel" class="mdl-tabs__tab">Material Light</a>
+              <a href="#dark-panel" class="mdl-tabs__tab">Material Dark</a>
+          </div>
+          <div class="mdl-tabs__panel is-active" id="vanilla-panel">
+            <ul>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #fafafa;"></i>
+                    <span>Grey 50</span>
+                    <span class="mdl-list__item-sub-title" id="Grey50">#fafafa</span>
+                  </span>
+                  <button id="demo-menu-lower-right1" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right1">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey50')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/fafafa';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #f5f5f5;"></i>
+                    <span>Grey 100</span>
+                    <span class="mdl-list__item-sub-title" id="Grey100">#f5f5f5</span>
+                  </span>
+                  <button id="demo-menu-lower-right2" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right2">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey100')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/f5f5f5';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #eeeeee;"></i>
+                    <span>Grey 200</span>
+                    <span class="mdl-list__item-sub-title" id="Grey200">#eeeeee</span>
+                  </span>
+                  <button id="demo-menu-lower-right3" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right3">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey200')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/eeeeee';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #e0e0e0;"></i>
+                    <span>Grey 300</span>
+                    <span class="mdl-list__item-sub-title" id="Grey300">#e0e0e0</span>
+                  </span>
+                  <button id="demo-menu-lower-right4" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right4">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey300')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/e0e0e0';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #bdbdbd;"></i>
+                    <span>Grey 400</span>
+                    <span class="mdl-list__item-sub-title" id="Grey400">#bdbdbd</span>
+                  </span>
+                  <button id="demo-menu-lower-right5" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right5">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey400')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/bdbdbd';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #9e9e9e;"></i>
+                    <span>Grey 500</span>
+                    <span class="mdl-list__item-sub-title" id="Grey500">#9e9e9e</span>
+                  </span>
+                  <button id="demo-menu-lower-right6" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right6">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey500')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/9e9e9e';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #757575;"></i>
+                    <span>Grey 600</span>
+                    <span class="mdl-list__item-sub-title" id="Grey600">#757575</span>
+                  </span>
+                  <button id="demo-menu-lower-right7" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right7">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey600')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/757575';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #616161;"></i>
+                    <span>Grey 700</span>
+                    <span class="mdl-list__item-sub-title" id="Grey700">#616161</span>
+                  </span>
+                  <button id="demo-menu-lower-right8" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right8">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey700')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/616161';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #424242;"></i>
+                    <span>Grey 800</span>
+                    <span class="mdl-list__item-sub-title" id="Grey800">#424242</span>
+                  </span>
+                  <button id="demo-menu-lower-right9" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right9">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey800')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/424242';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #212121;"></i>
+                    <span>Grey 900</span>
+                    <span class="mdl-list__item-sub-title" id="Grey900">#212121</span>
+                  </span>
+                  <button id="demo-menu-lower-right10" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right10">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#Grey900')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/212121';">More info</li>
+                  </ul>
+                </div>
+              </div>
+            </ul>    
+          </div>
+          <div class="mdl-tabs__panel" id="light-panel">
+            <ul>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #ffffff;"></i>
+                    <span>Light Grey 50</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey50">#ffffff</span>
+                  </span>
+                  <button id="demo-menu-lower-right15" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right15">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey50')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/ffffff';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #ffffff;"></i>
+                    <span>Light Grey 100</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey100">#ffffff</span>
+                  </span>
+                  <button id="demo-menu-lower-right16" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right16">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey100')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/ffffff';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #ffffff;"></i>
+                    <span>Light Grey 200</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey200">#ffffff</span>
+                  </span>
+                  <button id="demo-menu-lower-right17" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right17">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey200')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/ffffff';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #ffffff;"></i>
+                    <span>Light Grey 300</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey300">#ffffff</span>
+                  </span>
+                  <button id="demo-menu-lower-right18" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right18">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey300')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/ffffff';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #efefef;"></i>
+                    <span>Light Grey 400</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey400">#efefef</span>
+                  </span>
+                  <button id="demo-menu-lower-right19" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right19">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey400')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/efefef';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #cfcfcf;"></i>
+                    <span>Light Grey 500</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey500">#cfcfcf</span>
+                  </span>
+                  <button id="demo-menu-lower-right20" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right20">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey500')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/cfcfcf';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #a4a4a4;"></i>
+                    <span>Light Grey 600</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey600">#a4a4a4</span>
+                  </span>
+                  <button id="demo-menu-lower-right21" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right21">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey600')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/a4a4a4';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #8e8e8e;"></i>
+                    <span>Light Grey 700</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey700">#8e8e8e</span>
+                  </span>
+                  <button id="demo-menu-lower-right22" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right22">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey700')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/8e8e8e';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #6d6d6d;"></i>
+                    <span>Light Grey 800</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey800">#6d6d6d</span>
+                  </span>
+                  <button id="demo-menu-lower-right23" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right23">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey800')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/6d6d6d';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #484848;"></i>
+                    <span>Light Grey 900</span>
+                    <span class="mdl-list__item-sub-title" id="lGrey900">#484848</span>
+                  </span>
+                  <button id="demo-menu-lower-right24" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right24">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#lGrey900')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/484848';">More info</li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="mdl-tabs__panel" id="dark-panel">
+            <ul>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #c7c7c7;"></i>
+                    <span>Dark Grey 50</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey50">#c7c7c7</span>
+                  </span>
+                  <button id="demo-menu-lower-right29" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right29">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey50')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/c7c7c7';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #c2c2c2;"></i>
+                    <span>Dark Grey 100</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey100">#c2c2c2</span>
+                  </span>
+                  <button id="demo-menu-lower-right30" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right30">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey100')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/c2c2c2';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #bcbcbc;"></i>
+                    <span>Dark Grey 200</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey200">#bcbcbc</span>
+                  </span>
+                  <button id="demo-menu-lower-right31" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right31">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey200')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/bcbcbc';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #aeaeae;"></i>
+                    <span>Dark Grey 300</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey300">#aeaeae</span>
+                  </span>
+                  <button id="demo-menu-lower-right32" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right32">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey300')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/aeaeae';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #8d8d8d;"></i>
+                    <span>Dark Grey 400</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey400">#8d8d8d</span>
+                  </span>
+                  <button id="demo-menu-lower-right33" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right33">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey400')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/8d8d8d';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #707070;"></i>
+                    <span>Dark Grey 500</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey500">#707070</span>
+                  </span>
+                  <button id="demo-menu-lower-right33" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right33">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey500')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/707070';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #494949;"></i>
+                    <span>Dark Grey 600</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey600">#494949</span>
+                  </span>
+                  <button id="demo-menu-lower-right34" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right34">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey600')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/494949';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #373737;"></i>
+                    <span>Dark Grey 700</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey700">#373737</span>
+                  </span>
+                  <button id="demo-menu-lower-right35" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right35">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey700')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/373737';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #1b1b1b;"></i>
+                    <span>Dark Grey 800</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey800">#1b1b1b</span>
+                  </span>
+                  <button id="demo-menu-lower-right36" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right36">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey800')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/1b1b1b';">More info</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="demo-list-two mdl-list" style="width: 100%;">
+                <div class="mdl-list__item mdl-list__item--two-line">
+                  <span class="mdl-list__item-primary-content">
+                    <i class="mdl-list__item-avatar" style="background-color: #000000;"></i>
+                    <span>Dark Grey 900</span>
+                    <span class="mdl-list__item-sub-title" id="dGrey900">#000000</span>
+                  </span>
+                  <button id="demo-menu-lower-right37" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right37">
+                    <li class="mdl-menu__item" onclick="copyToClipboard('#dGrey900')">Copy HEX</li>
+                    <li class="mdl-menu__item" onclick="location.href='https://www.color-hex.com/color/000000';">More info</li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <script src="assets/js/material.min.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/copytext.js"></script>
+  </body>
+</html>
